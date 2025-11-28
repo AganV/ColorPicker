@@ -5,18 +5,18 @@ h2 {
 }
 div {
   margin: 5px;
-  padding: 200px;
+  padding: 175px;
   display: inline-block;
 }
 
-.rgb{
+#rgb{
     background-color : rgb(255, 0, 0);
 }
 
-.hex{
+#hex{
     background-color : #FF0000;
 }
 
-.hsl{
+#hsl{
     background-color: hsl(0, 100%, 50%);
 }
