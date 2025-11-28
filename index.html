@@ -8,10 +8,24 @@
 <body>
 
 <h2>V3GUX39T</h2>
+<form name="myform" onsubmit="return myfunc()">
+  
+  <label for="rgb1">RGB:</label><br>
+  <input type="text" name="rgb1" id="rgb1" /><br><br>
+  
+  <label for="hex1">HEX:</label><br>
+  <input type="text" name="hex1" id="hex1" /><br><br>
+  
+  <label for="hsl1">HSL:</label><br>
+  <input type="text" name="hsl1" id="hsl1" />
+  
+  <input type="submit" id="sub" value="Submit" />
+</form>
 
-<div class="rgb"><p>RGB</p></div>
-<div class="hex"><p>HEX</p></div>
-<div class="hsl"><p>HSL</p></div>
+<div id="rgb"><p>RGB</p></div>
+<div id="hex"><p>HEX</p></div>
+<div id="hsl"><p>HSL</p></div>
+<script src="script.js"></script>
 
 </body>
 
